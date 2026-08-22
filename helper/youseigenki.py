@@ -1,4 +1,4 @@
-# Notes:
+# Notes: TODO: simultaneous with using the circle list pages
 import sys
 import json
 from pathlib import Path
@@ -309,6 +309,481 @@ if __name__ == "__main__":
         event.circles = retrieve_circles(event_name)
         events.append(event)
 
+    i = 5  # ==== youseigenki5 ====
+    if i in active_events:
+        event_name = f"youseigenki{i}"
+        print(f"Processing {event_name} ...")
+
+        media_ = [
+            Medium(
+                "05_cirno_top5_01.jpg",
+                [
+                    Source(
+                        "https://web.archive.org/web/20130812023818/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
+                comments="Illustration by HAM（points)",
+            ),
+            # Medium("",
+            #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+        ]
+        locations = [
+            Location(
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
+                description="大田区産業プラザＰｉＯ大展示ホール",
+                sources=[
+                    Source(
+                        "https://web.archive.org/web/20130812023818/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.OfficialExt),
+                    )
+                ],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
+            ),
+        ]
+        event = Event(
+            aliases=[
+                f"ようせいげんき！{i}",
+                f"Yousei Genki! {i}",
+            ],
+            dates="2013.09.08",
+            circles=[],
+            media=media_,
+            sources=[
+                Source(
+                    "Date: https://web.archive.org/web/20130812023818/http://www.puniket.com/cirno/",
+                    (ReliabilityTypes.Reliable, OriginTypes.Official),
+                ),
+                # Source("Participating circles: ", (ReliabilityTypes.Reliable, OriginTypes.Official)),
+            ],
+            locations=locations,
+            description=None,
+            # comments=None,
+            last_edited="2026.08.22",
+        )
+
+        # Retrieve circles
+        # event.circles = retrieve_circles(event_name)
+        events.append(event)
+
+    i = 6  # ==== youseigenki6 ====
+    if i in active_events:
+        event_name = f"youseigenki{i}"
+        print(f"Processing {event_name} ...")
+
+        media_ = [
+            Medium(
+                "06_cirno_top6_01.jpg",
+                [
+                    Source(
+                        "https://web.archive.org/web/20141105010647/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
+                comments="Illustration by HAM（points)",
+            ),
+            # Medium("",
+            #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+        ]
+        locations = [
+            Location(
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
+                description="大田区産業プラザＰｉＯ大展示ホール",
+                sources=[
+                    Source(
+                        "https://web.archive.org/web/20141105010647/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.OfficialExt),
+                    )
+                ],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
+            ),
+        ]
+        event = Event(
+            aliases=[
+                f"ようせいげんき！{i}",
+                f"Yousei Genki! {i}",
+            ],
+            dates="2014.01.12",
+            circles=[],
+            media=media_,
+            sources=[
+                Source(
+                    "Date: https://web.archive.org/web/20141105010647/http://www.puniket.com/cirno/",
+                    (ReliabilityTypes.Reliable, OriginTypes.Official),
+                ),
+                Source(
+                    "Participating circles: https://web.archive.org/web/20131229062508/http://www.puniket.com/aka/0112toho_aka11_list02.htm",
+                    (ReliabilityTypes.Reliable, OriginTypes.Official),
+                ),
+            ],
+            locations=locations,
+            description=None,
+            # comments=None,
+            last_edited="2026.08.22",
+        )
+
+        # Retrieve circles
+        event.circles = retrieve_circles(event_name)
+        events.append(event)
+
+    i = 7  # ==== youseigenki7 ====
+    if i in active_events:
+        event_name = f"youseigenki{i}"
+        print(f"Processing {event_name} ...")
+
+        media_ = [
+            Medium(
+                "07_cirno_top7_01.jpg",
+                [
+                    Source(
+                        "https://web.archive.org/web/20150622183222/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
+                comments="Illustration by HAM（points)",
+            ),
+            # Medium("",
+            #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+        ]
+        locations = [
+            Location(
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
+                description="大田区産業プラザＰｉＯ大展示ホール",
+                sources=[
+                    Source(
+                        "https://web.archive.org/web/20150622183222/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.OfficialExt),
+                    )
+                ],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
+            ),
+        ]
+        event = Event(
+            aliases=[
+                f"ようせいげんき！{i}",
+                f"Yousei Genki! {i}",
+            ],
+            dates="2015.03.14",
+            circles=[],
+            media=media_,
+            sources=[
+                Source(
+                    "Date: https://web.archive.org/web/20150622183222/http://www.puniket.com/cirno/",
+                    (ReliabilityTypes.Reliable, OriginTypes.Official),
+                ),
+                Source(
+                    "Participating circles: https://web.archive.org/web/20150313173421/http://www.puniket.com/aka/aka12_list02.htm",
+                    (ReliabilityTypes.Reliable, OriginTypes.Official),
+                ),
+            ],
+            locations=locations,
+            description=None,
+            # comments=None,
+            last_edited="2026.08.22",
+        )
+
+        # Retrieve circles
+        event.circles = retrieve_circles(event_name)
+        events.append(event)
+
+    i = 8  # ==== youseigenki8 ====
+    if i in active_events:
+        event_name = f"youseigenki{i}"
+        print(f"Processing {event_name} ...")
+
+        media_ = [
+            Medium(
+                "08_cirno_top8_01.jpg",
+                [
+                    Source(
+                        "https://web.archive.org/web/20160704031420/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
+                comments="Illustration by HAM（points)",
+            ),
+            # Medium("",
+            #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+        ]
+        locations = [
+            Location(
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
+                description="大田区産業プラザＰＩＯ １Ｆ大展示ホール",
+                sources=[
+                    Source(
+                        "https://web.archive.org/web/20160704031420/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.OfficialExt),
+                    )
+                ],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
+            ),
+        ]
+        event = Event(
+            aliases=[
+                f"ようせいげんき！{i}",
+                f"Yousei Genki! {i}",
+            ],
+            dates="2016.01.24",
+            circles=[],
+            media=media_,
+            sources=[
+                Source(
+                    "Date: https://web.archive.org/web/20160704031420/http://www.puniket.com/cirno/",
+                    (ReliabilityTypes.Reliable, OriginTypes.Official),
+                ),
+                Source(
+                    "Participating circles: https://web.archive.org/web/20160113213041/http://www.puniket.com/aka/touhou124_list02.htm",
+                    (ReliabilityTypes.Reliable, OriginTypes.Official),
+                ),
+            ],
+            locations=locations,
+            description=None,
+            # comments=None,
+            last_edited="2026.08.22",
+        )
+
+        # Retrieve circles
+        event.circles = retrieve_circles(event_name)
+        events.append(event)
+
+    i = 9  # ==== youseigenki9 ====
+    if i in active_events:
+        event_name = f"youseigenki{i}"
+        print(f"Processing {event_name} ...")
+
+        media_ = [
+            Medium(
+                "09_cirno_top9_01.jpg",
+                [
+                    Source(
+                        "https://web.archive.org/web/20170822143330/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
+                comments="Illustration by HAM（points)",
+            ),
+            # Medium("",
+            #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+        ]
+        locations = [
+            Location(
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
+                description="大田区産業プラザＰＩＯ １Ｆ大展示ホール",
+                sources=[
+                    Source(
+                        "https://web.archive.org/web/20170822143330/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.OfficialExt),
+                    )
+                ],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
+            ),
+        ]
+        event = Event(
+            aliases=[
+                f"ようせいげんき！{i}",
+                f"Yousei Genki! {i}",
+            ],
+            dates="2017.01.29",
+            circles=[],
+            media=media_,
+            sources=[
+                Source(
+                    "Date: https://web.archive.org/web/20170822143330/http://www.puniket.com/cirno/",
+                    (ReliabilityTypes.Reliable, OriginTypes.Official),
+                ),
+                Source(
+                    "Participating circles: https://web.archive.org/web/20170202002107/http://www.puniket.com/aka/aka14_list02.htm",
+                    (ReliabilityTypes.Reliable, OriginTypes.Official),
+                ),
+            ],
+            locations=locations,
+            description=None,
+            # comments=None,
+            last_edited="2026.08.22",
+        )
+
+        # Retrieve circles
+        event.circles = retrieve_circles(event_name)
+        events.append(event)
+
+    i = 10  # ==== youseigenki10 ====
+    if i in active_events:
+        event_name = f"youseigenki{i}"
+        print(f"Processing {event_name} ...")
+
+        media_ = [
+            Medium(
+                "10_cirno_top10_01.jpg",
+                [
+                    Source(
+                        "https://web.archive.org/web/20180524070705/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
+                comments="Illustration by HAM（points)",
+            ),
+            # Medium("",
+            #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+        ]
+        locations = [
+            Location(
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
+                description="大田区産業プラザＰＩＯ １Ｆ大展示ホール",
+                sources=[
+                    Source(
+                        "https://web.archive.org/web/20180524070705/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.OfficialExt),
+                    )
+                ],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
+            ),
+        ]
+        event = Event(
+            aliases=[
+                f"ようせいげんき！{i}",
+                f"Yousei Genki! {i}",
+            ],
+            dates="2018.02.11",
+            circles=[],
+            media=media_,
+            sources=[
+                Source(
+                    "Date: https://web.archive.org/web/20180524070705/http://www.puniket.com/cirno/",
+                    (ReliabilityTypes.Reliable, OriginTypes.Official),
+                ),
+                Source(
+                    "Participating circles: https://web.archive.org/web/20180212143447/http://www.puniket.com/aka/toho2018haru_list02.htm",
+                    (ReliabilityTypes.Reliable, OriginTypes.Official),
+                ),
+            ],
+            locations=locations,
+            description=None,
+            # comments=None,
+            last_edited="2026.08.22",
+        )
+
+        # Retrieve circles
+        event.circles = retrieve_circles(event_name)
+        events.append(event)
+
+    i = 11  # ==== youseigenki11 ====
+    if i in active_events:
+        event_name = f"youseigenki{i}"
+        print(f"Processing {event_name} ...")
+
+        media_ = [
+            Medium("11_cirno_top11_01.jpg",
+                   [Source("https://web.archive.org/web/20181017031647/http://www.puniket.com/cirno/", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                   comments="Illustration by HAM（points)"),
+            # Medium("",
+            #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+            ]
+        locations = [
+            Location(
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
+                description="大田区産業プラザＰＩＯ １Ｆ大展示ホール",
+                sources=[
+                    Source(
+                        "https://web.archive.org/web/20180524070705/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.OfficialExt),
+                    )
+                ],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
+            ),
+        ]
+        event = Event(
+            aliases=[
+                f"ようせいげんき！{i}",
+                f"Yousei Genki! {i}",
+            ],
+            dates="2018.09.15",
+            circles=[],
+            media=media_,
+            sources=[
+                Source("Date: https://web.archive.org/web/20181017031647/http://www.puniket.com/cirno/", (ReliabilityTypes.Reliable, OriginTypes.Official)),
+                Source("Participating circles: https://web.archive.org/web/20211203033926/http://www.puniket.com/aka/toho2018aki_list02.htm", (ReliabilityTypes.Reliable, OriginTypes.Official)),
+            ],
+            locations=locations,
+            description=None,
+            # comments=None,
+            last_edited="2026.08.22",
+        )
+
+        # Retrieve circles
+        event.circles = retrieve_circles(event_name)
+        events.append(event)
+
+    i = 12  # ==== youseigenki12 ====
+    if i in active_events:
+        event_name = f"youseigenki{i}"
+        print(f"Processing {event_name} ...")
+
+        media_ = [
+            Medium("12_cirno_top12_01.jpg",
+                   [Source("https://web.archive.org/web/20190921115430/http://www.puniket.com/cirno/", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                   comments="Illustration by HAM（points)"),
+            # Medium("",
+            #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+            ]
+        locations = [
+            Location(
+                coordinates=(35.5587817, 139.7240667),
+                address="1 Chome-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
+                description="大田区産業プラザＰＩＯ １Ｆ大展示ホール",
+                sources=[
+                    Source(
+                        "https://web.archive.org/web/20190921115430/http://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.OfficialExt),
+                    )
+                ],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSopXAxX4zYII19vbdI4rX0w5RiVyPdD_3T-rcKAI3NBfzD7cKS2HEXWrr_JXATLT3BXULla2lC3oHidDik9oIlyt_6fS4t9y2wbW_lLHAvuil4Cw0WsOtevHY2sumWk6a1Mp8Hg=s0?imgmax=0",
+                url="https://maps.app.goo.gl/mSxwaUchFHGpFwBf9",
+            ),
+        ]
+        event = Event(
+            aliases=[
+                f"ようせいげんき！{i}",
+                f"Yousei Genki! {i}",
+            ],
+            dates="2019.01.27",
+            circles=[],
+            media=media_,
+            sources=[
+                Source("Date: https://web.archive.org/web/20190921115430/http://www.puniket.com/cirno/", (ReliabilityTypes.Reliable, OriginTypes.Official)),
+                Source("Participating circles: https://web.archive.org/web/20220828175049/http://www.puniket.com/aka/toho2019haru_list02.htm", (ReliabilityTypes.Reliable, OriginTypes.Official)),
+            ],
+            locations=locations,
+            description=None,
+            # comments=None,
+            last_edited="2026.08.22",
+        )
+
+        # Retrieve circles
+        event.circles = retrieve_circles(event_name)
+        events.append(event)
+
     # i =   # ==== youseigenki ====
     # if i in active_events:
     #     event_name = f"youseigenki{i}"
@@ -345,7 +820,7 @@ if __name__ == "__main__":
     #         locations=locations,
     #         description=None,
     #         # comments=None,
-    #         last_edited="2026.08.21",
+    #         last_edited="2026.08.22",
     #     )
 
     #     # Retrieve circles
@@ -388,7 +863,7 @@ if __name__ == "__main__":
     #         locations=locations,
     #         description=None,
     #         # comments=None,
-    #         last_edited="2026.08.21",
+    #         last_edited="2026.08.22",
     #     )
 
     #     # Retrieve circles
@@ -431,7 +906,222 @@ if __name__ == "__main__":
     #         locations=locations,
     #         description=None,
     #         # comments=None,
-    #         last_edited="2026.08.21",
+    #         last_edited="2026.08.22",
+    #     )
+
+    #     # Retrieve circles
+    #     # event.circles = retrieve_circles(event_name)
+    #     events.append(event)
+
+    # i =   # ==== youseigenki ====
+    # if i in active_events:
+    #     event_name = f"youseigenki{i}"
+    #     print(f"Processing {event_name} ...")
+
+    #     media_ = [
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #     ]
+    #     locations = [
+    #         # Location(
+    #         #     coordinates=(,),
+    #         #     address="",
+    #         #     description="",
+    #         #     sources=[Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+    #         #     # comments=None,
+    #         #     imageUrl="",
+    #         #     url="",
+    #         # ),
+    #     ]
+    #     event = Event(
+    #         aliases=[
+    #             f"ようせいげんき！{i}",
+    #             f"Yousei Genki! {i}",
+    #         ],
+    #         dates="",
+    #         circles=[],
+    #         media=media_,
+    #         sources=[
+    #             # Source(f"Date: {}", (RT.Reliable, OT.Official)),
+    #             # Source("Participating circles: ", (RT.Reliable, OT.Official)),
+    #         ],
+    #         locations=locations,
+    #         description=None,
+    #         # comments=None,
+    #         last_edited="2026.08.22",
+    #     )
+
+    #     # Retrieve circles
+    #     # event.circles = retrieve_circles(event_name)
+    #     events.append(event)
+
+    # i =   # ==== youseigenki ====
+    # if i in active_events:
+    #     event_name = f"youseigenki{i}"
+    #     print(f"Processing {event_name} ...")
+
+    #     media_ = [
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #     ]
+    #     locations = [
+    #         # Location(
+    #         #     coordinates=(,),
+    #         #     address="",
+    #         #     description="",
+    #         #     sources=[Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+    #         #     # comments=None,
+    #         #     imageUrl="",
+    #         #     url="",
+    #         # ),
+    #     ]
+    #     event = Event(
+    #         aliases=[
+    #             f"ようせいげんき！{i}",
+    #             f"Yousei Genki! {i}",
+    #         ],
+    #         dates="",
+    #         circles=[],
+    #         media=media_,
+    #         sources=[
+    #             # Source(f"Date: {}", (RT.Reliable, OT.Official)),
+    #             # Source("Participating circles: ", (RT.Reliable, OT.Official)),
+    #         ],
+    #         locations=locations,
+    #         description=None,
+    #         # comments=None,
+    #         last_edited="2026.08.22",
+    #     )
+
+    #     # Retrieve circles
+    #     # event.circles = retrieve_circles(event_name)
+    #     events.append(event)
+
+    # i =   # ==== youseigenki ====
+    # if i in active_events:
+    #     event_name = f"youseigenki{i}"
+    #     print(f"Processing {event_name} ...")
+
+    #     media_ = [
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #     ]
+    #     locations = [
+    #         # Location(
+    #         #     coordinates=(,),
+    #         #     address="",
+    #         #     description="",
+    #         #     sources=[Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+    #         #     # comments=None,
+    #         #     imageUrl="",
+    #         #     url="",
+    #         # ),
+    #     ]
+    #     event = Event(
+    #         aliases=[
+    #             f"ようせいげんき！{i}",
+    #             f"Yousei Genki! {i}",
+    #         ],
+    #         dates="",
+    #         circles=[],
+    #         media=media_,
+    #         sources=[
+    #             # Source(f"Date: {}", (RT.Reliable, OT.Official)),
+    #             # Source("Participating circles: ", (RT.Reliable, OT.Official)),
+    #         ],
+    #         locations=locations,
+    #         description=None,
+    #         # comments=None,
+    #         last_edited="2026.08.22",
+    #     )
+
+    #     # Retrieve circles
+    #     # event.circles = retrieve_circles(event_name)
+    #     events.append(event)
+
+    # i =   # ==== youseigenki ====
+    # if i in active_events:
+    #     event_name = f"youseigenki{i}"
+    #     print(f"Processing {event_name} ...")
+
+    #     media_ = [
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #     ]
+    #     locations = [
+    #         # Location(
+    #         #     coordinates=(,),
+    #         #     address="",
+    #         #     description="",
+    #         #     sources=[Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+    #         #     # comments=None,
+    #         #     imageUrl="",
+    #         #     url="",
+    #         # ),
+    #     ]
+    #     event = Event(
+    #         aliases=[
+    #             f"ようせいげんき！{i}",
+    #             f"Yousei Genki! {i}",
+    #         ],
+    #         dates="",
+    #         circles=[],
+    #         media=media_,
+    #         sources=[
+    #             # Source(f"Date: {}", (RT.Reliable, OT.Official)),
+    #             # Source("Participating circles: ", (RT.Reliable, OT.Official)),
+    #         ],
+    #         locations=locations,
+    #         description=None,
+    #         # comments=None,
+    #         last_edited="2026.08.22",
+    #     )
+
+    #     # Retrieve circles
+    #     # event.circles = retrieve_circles(event_name)
+    #     events.append(event)
+
+    # i =   # ==== youseigenki ====
+    # if i in active_events:
+    #     event_name = f"youseigenki{i}"
+    #     print(f"Processing {event_name} ...")
+
+    #     media_ = [
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #         # Medium("", [Source("", (RT.Reliable, OT.Official))]),
+    #     ]
+    #     locations = [
+    #         # Location(
+    #         #     coordinates=(,),
+    #         #     address="",
+    #         #     description="",
+    #         #     sources=[Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+    #         #     # comments=None,
+    #         #     imageUrl="",
+    #         #     url="",
+    #         # ),
+    #     ]
+    #     event = Event(
+    #         aliases=[
+    #             f"ようせいげんき！{i}",
+    #             f"Yousei Genki! {i}",
+    #         ],
+    #         dates="",
+    #         circles=[],
+    #         media=media_,
+    #         sources=[
+    #             # Source(f"Date: {}", (RT.Reliable, OT.Official)),
+    #             # Source("Participating circles: ", (RT.Reliable, OT.Official)),
+    #         ],
+    #         locations=locations,
+    #         description=None,
+    #         # comments=None,
+    #         last_edited="2026.08.22",
     #     )
 
     #     # Retrieve circles
