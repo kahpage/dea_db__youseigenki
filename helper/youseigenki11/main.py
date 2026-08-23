@@ -79,7 +79,7 @@ def main():
         for row in rows:
             cols = row.find_all("td")
             # print(cols)
-            if len(cols) < 4 or "サークル名" in cols[0].get_text() or not cols[1].get_text().strip():
+            if len(cols) < 6 or "サークル名" in cols[0].get_text() or not cols[1].get_text().strip():
                 # print(len(cols), cols)
                 if "03：ようせいげんき！１１" in cols[0].get_text():
                     is_active = True
@@ -91,12 +91,18 @@ def main():
         
             name = cols[0].get_text(strip=True).replace("\r", "").replace("\n", "")
             penname = cols[1].get_text(strip=True).replace("\r", "").replace("\n", "")
-            position = cols[3].get_text(strip=True)
+            position = cols[5].get_text(strip=True)
 
             links = []
-            link = cols[2].get_text(strip=True)
-            if link:
-                links.append(link)
+            web_link = cols[2].get_text(strip=True)
+            if web_link:
+                links.append(web_link)
+            twitter_link = cols[3].get_text(strip=True)
+            if twitter_link:
+                links.append(twitter_link)
+            pixiv_link = cols[4].get_text(strip=True)
+            if pixiv_link:
+                links.append(pixiv_link)
 
             circle = Circle(
                 position=position,
