@@ -237,7 +237,7 @@ if __name__ == "__main__":
                 # Source("Participating circles: ", (RT.Reliable, OT.Official)),
             ],
             locations=locations,
-            description=None,
+            description="At a venue featuring 紅のひろば８, このはな咲夜３ and ようせいげんき！３",
             # comments=None,
             last_edited="2026.08.21",
         )
@@ -300,7 +300,7 @@ if __name__ == "__main__":
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At a venue featuring 紅のひろば９, このはな咲夜４, ようせいげんき！４ and 遊音ファンタジウム２」",
             # comments=None,
             last_edited="2026.08.21",
         )
@@ -360,7 +360,7 @@ if __name__ == "__main__":
                 # Source("Participating circles: ", (ReliabilityTypes.Reliable, OriginTypes.Official)),
             ],
             locations=locations,
-            description=None,
+            description="At a venue featuring 紅のひろば１０, このはな咲夜５, ようせいげんき！５ and 遊音ファンタジウム",
             # comments=None,
             last_edited="2026.08.22",
         )
@@ -423,7 +423,7 @@ if __name__ == "__main__":
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At a venue featuring 紅のひろば１１, このはな咲夜６ and ようせいげんき！６",
             # comments=None,
             last_edited="2026.08.22",
         )
@@ -486,7 +486,7 @@ if __name__ == "__main__":
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At a venue featuring 紅のひろば１２, このはな咲夜７, ようせいげんき！７ and 旧地獄温泉 お燐の湯",
             # comments=None,
             last_edited="2026.08.22",
         )
@@ -549,7 +549,7 @@ if __name__ == "__main__":
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At 東方合同イベント2016新春！, which featured 紅のひろば１３, このはな咲夜８, ようせいげんき！８, 恋のまほうは魔理沙におまかせ！７, 七色魔女の人形舞踏会。５＆七曜魔女の舞踏会。５, 旧地獄温泉 お燐の湯 and もりや神社例大祭 五",
             # comments=None,
             last_edited="2026.08.22",
         )
@@ -612,7 +612,7 @@ if __name__ == "__main__":
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At 東方合同イベント2017新春！, which featured 紅のひろば１４, このはな咲夜９, ようせいげんき！９, 恋のまほうは魔理沙におまかせ！８, 七色魔女の人形舞踏会。６＆七曜魔女の舞踏会。６, 旧地獄温泉 お燐の湯, もりや神社例大祭 六, みょうれんパーティー３, ゆゆみょん!５, 八雲のヒミツ基地 and 萃香粋酔（すいかすいすい）",
             # comments=None,
             last_edited="2026.08.22",
         )
@@ -675,7 +675,7 @@ if __name__ == "__main__":
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At 東方合同イベント2018春！, which featured 紅のひろば１５, このはな咲夜１０, ようせいげんき！１０, 恋のまほうは魔理沙におまかせ！９, 七色魔女の人形舞踏会。７＆七曜魔女の舞踏会。７, 旧地獄温泉 お燐の湯, もりや神社例大祭 七, みょうれんパーティー４, ゆゆみょん!６, 八雲のヒミツ基地２ and 萃香粋酔２（すいかすいすい）",
             # comments=None,
             last_edited="2026.08.22",
         )
@@ -738,7 +738,7 @@ if __name__ == "__main__":
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At 東方合同イベント2018秋！, which featured 紅のひろば１６, このはな咲夜１１, ようせいげんき！１１, 恋のまほうは魔理沙におまかせ！１０, 七色魔女の人形舞踏会。８＆七曜魔女の舞踏会。８, 八雲のヒミツ基地３ and 萃香粋酔３（すいかすいすい）",
             # comments=None,
             last_edited="2026.08.22",
         )
@@ -762,6 +762,15 @@ if __name__ == "__main__":
                     )
                 ],
                 comments="Illustration by HAM（points)",
+            ),
+            Medium(
+                "14_aka19_zumen.pdf",
+                [
+                    Source(
+                        "https://web.archive.org/web/20210120215638/http://www.puniket.com/aka/aka19_zumen.pdf",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
             ),
             # Medium("",
             #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
@@ -801,7 +810,7 @@ if __name__ == "__main__":
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At 東方合同イベント2019新春！, which featured  紅のひろば１７, このはな咲夜１２, ようせいげんき！１２, 恋のまほうは魔理沙におまかせ！１１, 七色魔女の人形舞踏会。９＆七曜魔女の舞踏会。９, 旧地獄温泉 お燐の湯, もりや神社例大祭 八, みょうれんパーティー５, ゆゆみょん!７, 八雲のヒミツ基地４ and 萃香粋酔４（すいかすいすい）",
             # comments=None,
             last_edited="2026.08.22",
         )
@@ -825,6 +834,16 @@ if __name__ == "__main__":
                     )
                 ],
                 comments="Illustration by HAM（points)",
+            ),
+            Medium(
+                "https://web.archive.org/web/20200928075406/http://www.puniket.com/aka/toho2020_0202w.pdf",
+                [
+                    Source(
+                        "https://web.archive.org/web/20200928075406/http://www.puniket.com/aka/toho2020_0202w.pdf",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
+                comments="Seems corrupt",
             ),
             # Medium("",
             #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
@@ -864,7 +883,7 @@ if __name__ == "__main__":
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At 東方合同イベント2020冬！, which featured 紅のひろば１８, このはな咲夜１３, ようせいげんき！１３, 恋のまほうは魔理沙におまかせ！１２, 七色魔女の人形舞踏会。１０＆七曜魔女の舞踏会。１０, 旧地獄温泉 お燐の湯, もりや神社例大祭 九, みょうれんパーティー６, ゆゆみょん!８, 八雲のヒミツ基地５ and 萃香粋酔５（すいかすいすい）.",
             # comments=None,
             last_edited="2026.08.22",
         )
@@ -922,12 +941,12 @@ if __name__ == "__main__":
                     (ReliabilityTypes.Reliable, OriginTypes.Official),
                 ),
                 Source(
-                    "Participating circles (date matches, not ようせいげんき！13 but ようせいげんき！14): https://web.archive.org/web/20210113043127/http://www.puniket.com/aka/toho2021w_list02.htm",
+                    'Participating circles (date matches, not event name "ようせいげんき！13" that should have been ようせいげんき！14): https://web.archive.org/web/20210113043127/http://www.puniket.com/aka/toho2021w_list02.htm',
                     (ReliabilityTypes.Reliable, OriginTypes.Official),
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At 東方合同イベント2020冬！, which featured 紅のひろば１８, このはな咲夜１３, ようせいげんき！１３, 恋のまほうは魔理沙におまかせ！１２, 七色魔女の人形舞踏会。１０＆七曜魔女の舞踏会。１０, 旧地獄温泉 お燐の湯, もりや神社例大祭 九, みょうれんパーティー６, ゆゆみょん!８, 八雲のヒミツ基地５ and 萃香粋酔５（すいかすいすい）",
             # comments=None,
             last_edited="2026.08.22",
         )
@@ -952,6 +971,17 @@ if __name__ == "__main__":
                 ],
                 comments="Illustration by HAM（points)",
             ),
+            Medium(
+                "15_toho2022w_zumen.pdf",
+                [
+                    Source(
+                        "https://web.archive.org/web/20220130142949/http://www.puniket.com/touhou/toho2022w_zumen.pdf",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
+            ),
+            # Medium("",
+            #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
             # Medium("",
             #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
         ]
@@ -962,7 +992,7 @@ if __name__ == "__main__":
                 description="大田区産業プラザＰＩＯ １Ｆ大展示ホール",
                 sources=[
                     Source(
-                        "https://web.archive.org/web/20210729132933/http://www.puniket.com/cirno/",
+                        "https://web.archive.org/web/20211125192238/http://www.puniket.com/cirno/",
                         (ReliabilityTypes.Reliable, OriginTypes.OfficialExt),
                     )
                 ],
@@ -976,21 +1006,21 @@ if __name__ == "__main__":
                 f"ようせいげんき！{i}",
                 f"Yousei Genki! {i}",
             ],
-            dates="2021.01.24",
+            dates="2022.01.30",
             circles=[],
             media=media_,
             sources=[
                 Source(
-                    "Date: https://web.archive.org/web/20210729132933/http://www.puniket.com/cirno/",
+                    "Date: https://web.archive.org/web/20211125192238/http://www.puniket.com/cirno/",
                     (ReliabilityTypes.Reliable, OriginTypes.Official),
                 ),
                 Source(
-                    "Participating circles (date matches, not ようせいげんき！13 but ようせいげんき！14): https://web.archive.org/web/20210113043127/http://www.puniket.com/aka/toho2021w_list02.htm",
+                    "Participating circles: https://web.archive.org/web/20220114032621/http://www.puniket.com/touhou/toho2022w_list01.htm or https://web.archive.org/web/20220127233656/http://www.puniket.com/touhou/toho2022w_list02.htm",
                     (ReliabilityTypes.Reliable, OriginTypes.Official),
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At 東方合同イベント2022新年！, which featured 紅のひろば２０, このはな咲夜１５, ようせいげんき！１５, 恋のまほうは魔理沙におまかせ！１４, 七色魔女の人形舞踏会。１２＆七曜魔女の舞踏会。１２, 旧地獄温泉 お燐の湯, もりや神社例大祭 十一, みょうれんパーティー８, ゆゆみょん!１０, 八雲のヒミツ基地７ and 萃香粋酔７（すいかすいすい）",
             # comments=None,
             last_edited="2026.08.23",
         )
@@ -1014,6 +1044,15 @@ if __name__ == "__main__":
                     )
                 ],
                 comments="Illustration by HAM（points)",
+            ),
+            Medium(
+                "16_230226_tohou2023w2.pdf",
+                [
+                    Source(
+                        "https://web.archive.org/web/20240701091029/http://www.puniket.com/touhou/230226_tohou2023w2.pdf",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
             ),
             # Medium("",
             #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
@@ -1047,16 +1086,19 @@ if __name__ == "__main__":
                     "Date: https://web.archive.org/web/20230718063821/http://www.puniket.com/cirno/",
                     (ReliabilityTypes.Reliable, OriginTypes.Official),
                 ),
-                # Source("Participating circles: ", (ReliabilityTypes.Reliable, OriginTypes.Official)),
+                Source(
+                    "Participating circles: https://web.archive.org/web/20230319233813/http://www.puniket.com/touhou/toho2023w_list02.htm",
+                    (ReliabilityTypes.Reliable, OriginTypes.Official),
+                ),
             ],
             locations=locations,
-            description=None,
+            description="At 東方合同イベント2023冬！, which featured 紅のひろば２１, このはな咲夜１６, ようせいげんき！１６, 恋のまほうは魔理沙におまかせ！１５, 七色魔女の人形舞踏会。１３＆七曜魔女の舞踏会。１３, 旧地獄温泉 お燐の湯, もりや神社例大祭 十二, みょうれんパーティー９, ゆゆみょん!１１, 八雲のヒミツ基地８ and 萃香粋酔８（すいかすいすい）.",
             # comments=None,
             last_edited="2026.08.23",
         )
 
         # Retrieve circles
-        # event.circles = retrieve_circles(event_name)
+        event.circles = retrieve_circles(event_name)
         events.append(event)
 
     i = 17  # ==== youseigenki17 ====
@@ -1074,6 +1116,24 @@ if __name__ == "__main__":
                     )
                 ],
                 comments="Illustration by HAM（points)",
+            ),
+            Medium(
+                "17_touhou2024w_zumen.pdf",
+                [
+                    Source(
+                        "https://web.archive.org/web/20240204115605/http://www.puniket.com/touhou/touhou2024w_zumen.pdf",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
+            ),
+            Medium(
+                "17_toho2024w_cut.pdf",
+                [
+                    Source(
+                        "https://web.archive.org/web/20240204115605/http://www.puniket.com/touhou/toho2024w_cut.pdf",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
             ),
             # Medium("",
             #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
@@ -1113,7 +1173,7 @@ if __name__ == "__main__":
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At 東方合同イベント2024新春！, which featured 紅のひろば２２, このはな咲夜１７, ようせいげんき！１７, 恋のまほうは魔理沙におまかせ！１６, 七色魔女の人形舞踏会。１４＆七曜魔女の舞踏会。１４, 旧地獄温泉 お燐の湯, もりや神社例大祭 十三, みょうれんパーティー１０, ゆゆみょん!１２, 八雲のヒミツ基地９ and 萃香粋酔９（すいかすいすい）.",
             # comments=None,
             last_edited="2026.08.23",
         )
@@ -1138,8 +1198,24 @@ if __name__ == "__main__":
                 ],
                 comments="Illustration by HAM（points)",
             ),
-            Medium("18_touhou2025w_zumen.pdf",
-                   [Source("https://web.archive.org/web/20250912011749/https://www.puniket.com/cirno/", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
+            Medium(
+                "18_touhou2025w_zumen.pdf",
+                [
+                    Source(
+                        "https://web.archive.org/web/20250912011749/https://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
+            ),
+            Medium(
+                "18_toho2025_cut.pdf",
+                [
+                    Source(
+                        "https://web.archive.org/web/20250914213452/http://www.puniket.com/touhou/toho2025_cut.pdf",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
+            ),
             # Medium("",
             #        [Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]),
         ]
@@ -1178,7 +1254,7 @@ if __name__ == "__main__":
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At 東方合同イベント2025冬！, which featured 紅のひろば２３, このはな咲夜１８, 恋のまほうは魔理沙におまかせ！１７, 七色魔女の人形舞踏会。１５＆七曜魔女の舞踏会。１５, 旧地獄温泉 お燐の湯, もりや神社例大祭 十四, みょうれんパーティー１１, ゆゆみょん!１３, 八雲のヒミツ基地１０ and 萃香粋酔１０（すいかすいすい）.",
             # comments=None,
             last_edited="2026.08.23",
         )
@@ -1208,6 +1284,15 @@ if __name__ == "__main__":
                 [
                     Source(
                         "https://web.archive.org/web/20260602033202/https://www.puniket.com/cirno/",
+                        (ReliabilityTypes.Reliable, OriginTypes.Official),
+                    )
+                ],
+            ),
+            Medium(
+                "19_toho2026s_cut.pdf",
+                [
+                    Source(
+                        "https://web.archive.org/web/20260419193220/https://www.puniket.com/touhou/toho2026s_cut.pdf",
                         (ReliabilityTypes.Reliable, OriginTypes.Official),
                     )
                 ],
@@ -1250,7 +1335,7 @@ if __name__ == "__main__":
                 ),
             ],
             locations=locations,
-            description=None,
+            description="At 東方合同イベント2026春！, which featured 紅のひろば２４, このはな咲夜１９, ようせいげんき！１９, 恋のまほうは魔理沙におまかせ！１８, 七色魔女の人形舞踏会。１６＆七曜魔女の舞踏会。１６, 旧地獄温泉 お燐の湯, もりや神社例大祭 十五, みょうれんパーティー１２, ゆゆみょん!１４, 八雲のヒミツ基地１１ and 萃香粋酔１１.",
             # comments=None,
             last_edited="2026.08.23",
         )
@@ -1346,7 +1431,7 @@ if __name__ == "__main__":
         ],
         comments=None,
         description=None,
-        last_edited="2026.08.20",
+        last_edited="2026.08.23",
     )
 
     print(f"Saving {Path(__file__).stem} database...")
