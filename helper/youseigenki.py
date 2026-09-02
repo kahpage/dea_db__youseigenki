@@ -67,12 +67,12 @@ def retrieve_circles(event_name: str) -> list[Circle]:
 
 if __name__ == "__main__":
     events: list[Event] = []
-    active_events: list[int | str] = list(range(1, 19 + 1))
+    disabled_events: list[int | str] = []
 
     thwikicc = "https://thwiki.cc/%E5%A6%96%E7%B2%BE%E5%85%83%E6%B0%94%EF%BC%81"
 
     i = 1  # ==== youseigenki1 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -139,7 +139,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 2  # ==== youseigenki2 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -190,7 +190,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 3  # ==== youseigenki3 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -247,7 +247,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 4  # ==== youseigenki4 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -310,7 +310,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 5  # ==== youseigenki5 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -370,7 +370,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 6  # ==== youseigenki6 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -433,7 +433,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 7  # ==== youseigenki7 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -496,7 +496,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 8  # ==== youseigenki8 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -559,7 +559,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 9  # ==== youseigenki9 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -622,7 +622,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 10  # ==== youseigenki10 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -685,7 +685,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 11  # ==== youseigenki11 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -748,7 +748,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 12  # ==== youseigenki12 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -820,7 +820,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 13  # ==== youseigenki13 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -893,7 +893,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 14  # ==== youseigenki14 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -956,7 +956,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 15  # ==== youseigenki15 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -1030,7 +1030,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 16  # ==== youseigenki16 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -1102,7 +1102,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 17  # ==== youseigenki17 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -1183,7 +1183,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 18  # ==== youseigenki18 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -1264,7 +1264,7 @@ if __name__ == "__main__":
         events.append(event)
 
     i = 19  # ==== youseigenki19 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"youseigenki{i}"
         print(f"Processing {event_name} ...")
 
@@ -1345,7 +1345,7 @@ if __name__ == "__main__":
         events.append(event)
 
     # i =   # ==== youseigenki ====
-    # if i in active_events:
+    # if i not in disabled_events:
     #     event_name = f"youseigenki{i}"
     #     print(f"Processing {event_name} ...")
 
